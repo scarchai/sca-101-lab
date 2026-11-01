@@ -1,0 +1,19 @@
+# Python 虚拟环境
+.venv/
+venv/
+env/
+
+# Python 编译缓存
+__pycache__/
+*.py[cod]
+
+# 编辑器配置
+.vscode/
+.idea/
+
+# 数据集（如果你的实验数据很大）
+*.ets
+*.h5
+*.npy
+*.npz
+*.csv
