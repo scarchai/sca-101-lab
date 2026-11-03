@@ -9,8 +9,8 @@
 | 路径 | 内容 |
 | --- | --- |
 | `cpa_aes/CPA_demo.ipynb` | AES CPA 实验 Notebook |
-| `cpa_aes/plaintextAES200.npy` | 实验使用的明文数据 |
-| `cpa_aes/traceAES200.npy` | 实验使用的功耗轨迹数据 |
+| `cpa_aes/aes_200_plaintext.npy` | 实验使用的明文数据 |
+| `cpa_aes/aes_200_trace.npy` | 实验使用的功耗轨迹数据 |
 | `requirements.txt` | Python 依赖及版本 |
 
 实验针对 AES 首轮 SubBytes 中间值建立汉明重量（Hamming Weight）假设，并计算假设与功耗轨迹采样点之间的皮尔逊相关系数。通过比较不同密钥字节猜测的最大绝对相关系数，估计 AES 密钥；Notebook 还会绘制相关性图并展示恢复结果与实验密钥的对比。
